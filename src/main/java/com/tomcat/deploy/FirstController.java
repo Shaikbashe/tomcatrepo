@@ -10,7 +10,7 @@ public class FirstController {
 	String n[]= {"James","Sharan","Hari"};
   @GetMapping("/greet")
   public String greet() {
-	  return "Hi!!! Spring boot is running with webhook";
+	  return "Hi!!! Spring boot is running with webhook2";
   }
   
   @GetMapping("/greet2")
